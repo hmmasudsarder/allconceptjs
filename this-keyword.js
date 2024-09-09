@@ -11,3 +11,4 @@ function greet(greeting) {
   
   greet.apply(person, leader, team);  // Output: Hello, Alice!
   
+  const hello = "Hello"
