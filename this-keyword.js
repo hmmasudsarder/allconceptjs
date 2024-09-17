@@ -18,4 +18,9 @@ const userDtails = {
    age: 23,
    Designation: "web Developer",
 }
-great.call(userDtails)
+const userDtails2 = {
+   name: "masud",
+   age: 23,
+   Designation: "web Developer",
+}
+great.apply(userDtails2, ["hello", "bangladesh"])
