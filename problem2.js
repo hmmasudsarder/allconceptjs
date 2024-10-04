@@ -18,12 +18,24 @@
 // }
 
 const forLoopPare = true;
-let mathAll = 13;
+let mathAll = 12;
 let timeMentine = 13;
 
 
-if (mathAll > 12 && timeMentine > 12 && forLoopPare == true) {
-    console.log("your selected");
-}else{
-    console.log("try next time");
-}
+// if (mathAll > 12 && timeMentine > 12 && forLoopPare == true) {
+//     console.log("your selected");
+// }else{
+//     console.log("try next time");
+// }
+
+
+
+// if (mathAll > 10 && timeMentine > 11 || forLoopPare == true) {
+//     console.log("your select ");
+// }else{
+//     console.log("sorry try next time");
+// }
+
+const array = ["masud", "hridoy"];
+array.push("sumon", "ridmon")
+console.log(array);
