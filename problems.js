@@ -22,18 +22,18 @@
 // //   }
 // // }
 
-// const normal = [1, 3, 2, 4, 5, 9, 6];
-// const matchArray = [1, 5]
-// let totalResult = []
+const normal = [1, 3, 2, 4, 5, 9, 6];
+const matchArray = [1, 5]
+let totalResult = []
 
-// for (let i = 0; i < matchArray.length; i++) {
-//   for (let x = 0; x < normal.length; x++) {
-//    if (matchArray[i] === normal[x]) {
-//     totalResult.push(x)
-//    }
-//   }
-// }
-// console.log(totalResult);
+for (let i = 0; i < matchArray.length; i++) {
+  for (let x = 0; x < normal.length; x++) {
+   if (matchArray[i] === normal[x]) {
+    totalResult.push(x)
+   }
+  }
+}
+console.log(totalResult);
 
 
 
