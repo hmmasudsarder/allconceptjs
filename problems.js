@@ -47,10 +47,10 @@
 //   }
   
 // }
-const normal = [1, 3, 2, 4, 5, 9];
-const matchArray = [9];
+// const normal = [1, 3, 2, 4, 5, 9];
+// const matchArray = [9];
+// // console.log(normal);
+// const addded = normal[1]
+// const normal[1]  [4, ...normal.slice()];
 // console.log(normal);
-const addded = normal[1]
-const normal[1]  [4, ...normal.slice()];
-console.log(normal);
-console.log(dublecate);
+// console.log(dublecate);
