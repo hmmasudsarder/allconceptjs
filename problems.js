@@ -29,12 +29,24 @@ let totalResult = []
 for (let i = 0; i < matchArray.length; i++) {
   for (let x = 0; x < normal.length; x++) {
    if (matchArray[i] === normal[x]) {
-    totalResult.push(x)
+    totalResult.push(i)
    }
   }
 }
-console.log(totalResult);
+// console.log(totalResult);
 
+function maxNumber(arr){
+  let maxNum = arr[0]
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i]> maxNum) {
+      console.log(arr[i]);
+    }
+  }
+}
+
+const numbers = [3,21, 32, 23];
+const res = maxNumber(numbers)
+console.log(res);
 
 
 //  const normal = [1, 3, 2, 4, 5, 9, 6];
